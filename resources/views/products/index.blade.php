@@ -90,8 +90,7 @@
                                         </dd>
                                     @endforeach
                                 </dl>
-                                <button onclick="$('#variant{{$product->id}}').toggleClass('h-auto')"
-                                        class="btn btn-sm btn-link">Show more
+                                <button onclick="$('#variant{{$product->id}}').toggleClass('h-auto')" class="btn btn-sm btn-link">Show more
                                 </button>
                             </td>
                             <td>
